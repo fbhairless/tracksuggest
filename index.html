@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <script src="js/jquery-3.1.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>Celebrity Dating</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Meet Your Match</h1>
+    </div>
+    <div class="container" id="webpage">
+      <p>Photo booth shoreditch blog banjo 8-bit. Hexagon butcher asymmetrical, kale chips microdosing +1 wolf fashion axe aesthetic farm-to-table brooklyn bitters everyday carry prism. Disrupt crucifix +1, selfies af iPhone XOXO church-key kickstarter DIY poutine tbh selvage. Readymade biodiesel heirloom mustache, pitchfork activated charcoal hell of skateboard. Cold-pressed lumbersexual photo booth, vice next level slow-carb you probably haven't heard of them synth letterpress paleo thundercats chartreuse. Bushwick iceland tote bag, shoreditch seitan vegan tousled. Gochujang pop-up pabst readymade wayfarers keytar.</p>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label class="name1">Name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label class="age">Age</label>
+            <input id="age" class="form-control" type="text">
+          </div>
+          <label for="genPref">Gender Preference</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genPref" value="Male" checked>
+              Male
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="genPref" value="Female" checked>
+              Female
+            </label>
+          </div>
+
+          <label for="polPref">Policical Preference</label>
+          <select class="form-control" id="polPref">
+            <option>--None--</option>
+            <option>Democrat</option>
+            <option>Republican</option>
+            <option>Libertarian</option>
+            <option>Green</option>
+            <option>Independent</option>
+          </select>
+          <button class="btn btn-danger" id="submitter">Find your match!</button>
+        </form>
+      </div> <!-- .blanks -->
+    </div> <!-- .container -->
+
+      <div class="container">
+        <div class="panel panel-default" id="warning">
+          <div class="panel-heading">
+            <h2>Are you at least 18 years of age?</h2>
+          </div> <!-- .panel-heading -->
+          <div class="panel-body">
+            <div id="buttons">
+              <button class="btn btn-default" id="no">No</button>
+              <button class="btn btn-default" id="yes">Yes</button>
+          </div>
+          </div> <!-- .panel-body -->
+        </div> <!-- .panel -->
+        <h1 id="sorry">Sorry, you're too young for this content!</h1>
+      </div> <!-- .container -->
+  </body>
+</html>

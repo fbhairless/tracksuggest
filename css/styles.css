@@ -1,0 +1,57 @@
+#no {
+  background-color: red;
+  color: #fff;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100px;
+}
+
+#yes {
+  background-color: green;
+  color: #fff;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  width: 100px;
+}
+
+.panel-heading {
+  text-align: center;
+}
+
+.panel-body {
+  text-align: center;
+}
+
+#buttons {
+  padding: 5px auto;
+}
+#sorry {
+  display: none;
+}
+
+#webpage {
+  display: none;
+}
+
+.radio {
+  margin-top: 0;
+  padding-left: 15px;
+}
+
+#name {
+  width: 300px;
+}
+
+#age {
+  width: 100px;
+}
+
+#polPref {
+  width: 300px;
+}
+
+#submitter {
+  margin-top: 30px;
+}
