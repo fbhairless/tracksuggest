@@ -13,7 +13,6 @@ $(function(){
     var genPref = $("input:radio[name=genPref]:checked").val();
     var polPref = $("select#polPref").val();
 
-
     event.preventDefault();
   })
 
