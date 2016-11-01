@@ -1,9 +1,7 @@
-$(document).ready(function(event) {
-  $("select").submit(function() {
-    var questions = ("questions:checked").val();
-    alert("got to the beginning of the form submit");
+$(document).ready(function() {
+  $("#select").submit(function(event) {
     event.preventDefault();
-    console.log(selection);
+    var questions = $('input:radio[name=questions]:checked').val();
+    console.log(questions);
   });
-
 });
